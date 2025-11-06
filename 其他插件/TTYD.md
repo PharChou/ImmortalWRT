@@ -4,7 +4,7 @@ opkg update
 opkg install ttyd
 opkg install luci-app-ttyd
 ```
-# 设置步骤：免登录自动进入TTYD
+# 设置免登录自动进入TTYD
 在 OpenWrt 中安装 ttyd 后，如果你希望 **打开网页终端（例如 http://192.168.1.1:7681）时免输入账号密码直接登录为 root 用户**，可以通过以下方式实现：
 ## **安全警告**
 此操作会使任何访问你路由器 TTYD 地址的人 
